@@ -50,6 +50,9 @@ TagManager:
   - name: Enemy
     uniqueID: 143637341
     locked: 0
+  - name: Bullet
+    uniqueID: 1604589683
+    locked: 0
   - name: Tank
     uniqueID: 2878492781
     locked: 0

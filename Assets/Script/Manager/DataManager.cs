@@ -68,7 +68,7 @@ public class GameData
     public float Shield { get => shield; set => shield = value; }
     public float AttackStat { get => attackStat; set => attackStat = value; }
     public int SkinIndex { get => skinIndex; set => skinIndex = value; }
-    public int Coin { get => coin; set => coin = value; }
+    public int Coin { get => coin; set { coin = value; Save(); } }
     public int NumOfBuff1 { get => numOfBuff1; set => numOfBuff1 = value; }
     public int NumOfBuff2 { get => numOfBuff2; set => numOfBuff2 = value; }
     public int NumOfBuff3 { get => numOfBuff3; set => numOfBuff3 = value; }
